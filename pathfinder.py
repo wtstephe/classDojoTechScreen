@@ -6,7 +6,7 @@ import sys
 def checkMatrixFormat(mtx):
     lenFirstRow = len(mtx[0])
 
-    for row in range( len(mtx) ):
+    for row in range(len(mtx)):
         if ( len(mtx[row]) != lenFirstRow ):
             return False
 
